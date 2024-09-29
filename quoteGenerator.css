@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: conic-gradient(from 90deg at 25% -10%, #f4c6c6, #f34096, #f03f48, #ffed61, #e7ab16);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-size: 24px;
+  font-family: sans-serif;
+  display:table;
+  cursor:pointer;
+  transition:.6s;
+  }
+
+
+h1:hover {
+  font-size: 40px;
+  transition: all 500ms;
+  font-size-adjust: 20px
+}  
+
+
+p {
+  font-size: 20px; 
+  font-style: italic;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 16px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+
+
+
+#generateBtn {
+  align-items: center;
+  background-color: #FFE7E7;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #D33A2C;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 2px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+#generateBtn:active,
+#generateBtn:hover,
+#generateBtn:focus {
+  outline: 0;
+}
+
+
+#generateBtn:active {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+} 
+
+#generateBtn:hover {
+  background-color: #FFE3E3;
+  border-color: #FAA4A4;
+}
+
+#generateBtn:active:hover,
+#generateBtn:focus:hover,
+#generateBtn:focus {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
